@@ -14,6 +14,7 @@ Users are able to create new posts, update or delete them, as well as change the
 - CSS3/SASS
 - JavaScript
 - jQuery
+- PHP
 
 ### Screenshots: ###
 
