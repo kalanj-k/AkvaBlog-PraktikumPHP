@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+$bckg: url('../img/planted1.jpg');
+$divTransparent :rgba(0, 5, 0, 0.7);
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #a0bc76;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    height: 100%;
+}
+a{
+    color: white;
+    &:hover{
+        color: white;
+    }
+}
+p{
+    margin-bottom: 0px;
+}
+#footer{
+    width: 100%;
+    /*position: absolute;
+    bottom:0px;
+    right:0px;*/
+}
+.fttxt{
+        color: rgba(0, 5, 0, 0.7);
+        font-weight: bold;
+    }
+.navbar{
+    background-color: rgba(0, 5, 0, 0.7);
+    color: white;
+    .navbar-toggler-icon{
+        color:white;
+    }
+}
+#logovanje{
+    min-height: 400px;
+    width: 300px;
+    background-color: $divTransparent;
+    border-radius: 20px;
+    #loginSbmt{
+        border-bottom: 1px solid white;
+    }
+    #regClick{
+        text-decoration: underline;
+    }
+}
+.postBckg{
+    min-height: 400px;
+    max-width: 600px;
+    background-color: $divTransparent;
+    border-radius: 2px 20px 20px 20px;
+}
+.postBckgSmall{
+    max-width: 600px;
+    background-color: $divTransparent;
+    border-radius: 20px 20px 20px 20px;
+}
+.postSlika{
+    height: 200px;
+    border-radius: 20px;
+}
+.postAu{
+    background-color: $divTransparent;
+    height: 110px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.postIco{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.komentari{
+    border-top: 1px solid white;
+}
+.profilePersonal{
+    background-color: $divTransparent;
+    border-radius: 20px;
+}
+.profileAuthor{
+    height: 300px;
+    background-color: $divTransparent;
+    border-radius: 20px;
+}
+.slikaAuthor{
+    border-radius: 20px;
+    height: 250px;
+}
+.authUnder{
+    text-decoration: underline;
+}
+.profilLeft{
+    height: 300px;
+}
+.profilLeftAdmin{
+    min-height: 500px;
+}
+ul{
+    list-style: none;
+}
+.paginacija{
+    height: 30px;
+    width: 30px;
+    background-color: $divTransparent;
+    border-radius: 20px;
+}
+#hoverEdit{
+    font-size: 14px;
+    font-weight: bold;
+}
+#phChange{
+    background-color: $divTransparent;
+    border-radius: 20px;
+    height: 200px;
+}
+.profilSlika{
+    border-radius: 20px;
+    max-height: 180px;
+}
+textarea{
+    width: 90% !important;
+}
+.infoAcc{
+    font-weight: 600;
+}
+.feedbackBad{
+    display: none;
+    background-color: red;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 4px;
+    width: 100px;
+}
+#newTitle, #newCategory{
+    width: 90% !important;
+}
